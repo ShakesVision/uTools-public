@@ -4,7 +4,7 @@
       "name": "addTashkeel: تشکیل شامل کریں",
       "desc_en": "Adds tashkeel after every possible harf in Mehr Nastaleeq font.",
       "desc_ur": "یہ ٹول مہر نستعلیق فانٹ کے مطابق ہر ممکن حرف کے بعد تشکیل شامل کرتا ہے۔",
-      "code": "text += ' '; let chars = 'بپتٹثفکگ'; let delimeters = 'َُِْ،!ًٍٰ ';  chars.split('').forEach(c => { delimeters.split('').forEach(d => { text = text.replaceAll(c+d,c+'ـ'+d); }); }); text=text.trim(); return text;"
+      "code": "text += ' '; let chars = 'بپتٹثفکگ'; let delimeters = 'َُِْ،!ًٍٰ \n';  chars.split('').forEach(c => { delimeters.split('').forEach(d => { text = text.replaceAll(c+d,c+'ـ'+d); }); }); text=text.trim(); return text;"
     },
     {
       "id": "2",
